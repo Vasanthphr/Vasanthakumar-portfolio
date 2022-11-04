@@ -1,7 +1,5 @@
-import "./Assets/Image/webdeveloper.png";
 import "./App.css";
 import "./Components/Navbar.css";
-import Navbar from "./Components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import WelcomePage from "./Components/Home";
 import "./Components/WelcomePage.css";
@@ -13,7 +11,9 @@ import Skills from "./Components/Skills";
 import Contactme from "./Components/Contactme";
 
 function App() {
+
   return (
+   <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Portal />}>
@@ -25,6 +25,11 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+
+    <div>
+    
+    </div>
+   </>
   );
 }
 
