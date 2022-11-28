@@ -1,26 +1,16 @@
-.navbar {
-	
-	background: #d3dfdb;
-	background: -webkit-radial-gradient(circle, #d3dfdb 0%, #80b3bf 50%, #685c5c 100%);
-	background: radial-gradient(circle, #d3dfdb 0%, #80b3bf 50%, #685c5c 100%);
-}
 
+.nav{
+	color: black;
+}
 img {
 	width: 45px;
 	height: 45px;
 }
 
-.nav{
-	color: rgb(51, 54, 54);
-} 
+ 
 
 h2 {
 	float: right;
-
-	font-weight: bolder;
-	color: #06051f;
-	color: -webkit-linear-gradient(0deg, #6900ff 0%, #000000 50%, #9951ff 100%);
-	color: linear-gradient(0deg, #6900ff 0%, #000000 50%, #9951ff 100%);
 }
 
 .nav-item-1 {
@@ -38,7 +28,7 @@ h2 {
 .nav-link {
 
 	font-size: 3rem;
-	color: whitesmoke;
+	color:whitesmoke;
 	position: relative;
 }
 
@@ -144,7 +134,7 @@ h2 {
 	content: "";
 	width: 0%;
 	height: 4px;
-	background-color: whitesmoke;
+	background-color: rgb(88, 144, 207);
 	left: 50%;
 	bottom: 10px;
 	transition: all 0.4s ease-in-out;

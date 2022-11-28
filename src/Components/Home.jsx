@@ -3,7 +3,7 @@ import home from "../assets/home.png";
 
 function Home() {
   return (
-    <div className="row"  style={{backgroundColor:"#ADC6FF"}}>
+    <div className="row"  >
       <div className="col-lg-8">
         <img src={home} style={{width:"900px" ,height:"650px"}}alt="" />
       </div>
