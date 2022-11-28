@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import logo from "../assets/logo-no-background.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -7,27 +8,28 @@ function Navbar() {
       <div className="col-lg-12 ">
         <nav class="navbar navbar-expand-lg bg-secondary mt-2">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <div className="navbar-logo">
+              <img src={logo} alt="VK-logo" />
               <h2>VasanthaKumar</h2>
-            </a>
+            </div>
 
             <div class="navbar-nav ">
-              <div className="nav-item">
+              <div className="nav-item-1">
                 <Link class="nav-link active" to="/">
                   <h5>Home</h5>
                 </Link>
               </div>
-              <div className="nav-item">
+              <div className="nav-item-2">
                 <Link class="nav-link active" to="/about">
                   <h5>About</h5>
                 </Link>
               </div>
-              <div className="nav-item">
+              <div className="nav-item-3">
                 <Link class="nav-link active" aria-current="page" to="skills">
                   <h5>Skills</h5>
                 </Link>
               </div>
-              <div className="nav-item">
+              <div className="nav-item-4">
                 <Link
                   class="nav-link active"
                   aria-current="page"

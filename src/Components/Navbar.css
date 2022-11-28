@@ -1,2 +1,160 @@
 
+img{
+    width: 50px;
+    height: 45px;
+}
 
+h2{
+    float: right;
+}
+
+.nav-item-1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav-item-1:hover {
+	cursor: pointer;
+}
+
+
+
+.nav-link {
+	font-family: "Dancing Script", cursive;
+	font-size: 3rem;
+	color: whitesmoke;
+	position: relative;
+}
+
+.nav-link::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: 10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.nav-item-1:hover .nav-link::after {
+	width: 100%;
+	left: 0;
+}
+
+
+
+
+.nav-item-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav-item-2:hover {
+	cursor: pointer;
+}
+
+
+
+.nav-link {
+	font-family: "Dancing Script", cursive;
+	font-size: 3rem;
+	color: whitesmoke;
+	position: relative;
+}
+
+.nav-link::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: 10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.nav-item-2:hover .nav-link::after {
+	width: 100%;
+	left: 0;
+}
+
+
+
+
+
+.nav-item-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav-item-3:hover {
+	cursor: pointer;
+}
+
+
+
+.nav-link {
+	font-family: "Dancing Script", cursive;
+	font-size: 3rem;
+	color: whitesmoke;
+	position: relative;
+}
+
+.nav-link::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: 10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.nav-item-3:hover .nav-link::after {
+	width: 100%;
+	left: 0;
+}
+
+
+
+
+
+.nav-item-4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.nav-item-4:hover {
+	cursor: pointer;
+}
+
+
+
+.nav-link {
+	font-family: "Dancing Script", cursive;
+	font-size: 3rem;
+	color: whitesmoke;
+	position: relative;
+}
+
+.nav-link::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: whitesmoke;
+	left: 50%;
+	bottom: 10px;
+	transition: all 0.4s ease-in-out;
+}
+
+.nav-item-4:hover .nav-link::after {
+	width: 100%;
+	left: 0;
+}
