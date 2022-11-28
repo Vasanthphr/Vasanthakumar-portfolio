@@ -6,14 +6,14 @@ function Navbar() {
   return (
     <div className="row">
       <div className="col-lg-12 ">
-        <nav class="navbar navbar-expand-lg bg-secondary mt-2">
+        <nav className="navbar navbar-expand-lg ">
           <div class="container-fluid">
             <div className="navbar-logo">
               <img src={logo} alt="VK-logo" />
               <h2>VasanthaKumar</h2>
             </div>
 
-            <div class="navbar-nav ">
+            <div class="nav">
               <div className="nav-item-1">
                 <Link class="nav-link active" to="/">
                   <h5>Home</h5>
@@ -40,7 +40,7 @@ function Navbar() {
               </div>
             </div>
 
-            <div className=" btn">
+            <div className="btn">
               <Link to="/contact">
                 <button>Contact Me</button>
               </Link>

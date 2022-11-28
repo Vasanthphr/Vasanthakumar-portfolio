@@ -18,6 +18,10 @@ function About() {
                   I passionately combine Good design,Technology,and Innovation
                   in all my PROJECT
                 </p>
+
+                <div>
+                  <h1>Education Level</h1>
+                </div>
               </div>
             </div>
           </div>

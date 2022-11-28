@@ -11,25 +11,22 @@ import Skills from "./Components/Skills";
 import Contactme from "./Components/Contactme";
 
 function App() {
-
   return (
-   <>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Portal />}>
-          <Route path="/" element={<WelcomePage />} />
-          <Route path="about" element={<About />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="skills" element={<Skills />} />
-          <Route path="contact" element={<Contactme />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Portal />}>
+            <Route path="/" element={<WelcomePage />} />
+            <Route path="about" element={<About />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="skills" element={<Skills />} />
+            <Route path="contact" element={<Contactme />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
 
-    <div>
-    
-    </div>
-   </>
+      <div></div>
+    </>
   );
 }
 

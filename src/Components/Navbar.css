@@ -1,11 +1,26 @@
-
-img{
-    width: 50px;
-    height: 45px;
+.navbar {
+	
+	background: #d3dfdb;
+	background: -webkit-radial-gradient(circle, #d3dfdb 0%, #80b3bf 50%, #685c5c 100%);
+	background: radial-gradient(circle, #d3dfdb 0%, #80b3bf 50%, #685c5c 100%);
 }
 
-h2{
-    float: right;
+img {
+	width: 45px;
+	height: 45px;
+}
+
+.nav{
+	color: rgb(51, 54, 54);
+} 
+
+h2 {
+	float: right;
+
+	font-weight: bolder;
+	color: #06051f;
+	color: -webkit-linear-gradient(0deg, #6900ff 0%, #000000 50%, #9951ff 100%);
+	color: linear-gradient(0deg, #6900ff 0%, #000000 50%, #9951ff 100%);
 }
 
 .nav-item-1 {
@@ -21,7 +36,7 @@ h2{
 
 
 .nav-link {
-	font-family: "Dancing Script", cursive;
+
 	font-size: 3rem;
 	color: whitesmoke;
 	position: relative;
@@ -58,12 +73,6 @@ h2{
 
 
 
-.nav-link {
-	font-family: "Dancing Script", cursive;
-	font-size: 3rem;
-	color: whitesmoke;
-	position: relative;
-}
 
 .nav-link::after {
 	position: absolute;
@@ -97,13 +106,6 @@ h2{
 
 
 
-.nav-link {
-	font-family: "Dancing Script", cursive;
-	font-size: 3rem;
-	color: whitesmoke;
-	position: relative;
-}
-
 .nav-link::after {
 	position: absolute;
 	content: "";
@@ -136,12 +138,6 @@ h2{
 
 
 
-.nav-link {
-	font-family: "Dancing Script", cursive;
-	font-size: 3rem;
-	color: whitesmoke;
-	position: relative;
-}
 
 .nav-link::after {
 	position: absolute;
