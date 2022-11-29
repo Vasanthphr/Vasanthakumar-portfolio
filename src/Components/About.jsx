@@ -5,7 +5,7 @@ function About() {
     <>
       <div className="container">
         <div>
-          <h3 className="about">About</h3>
+          <h1 className="about-title mt-4">About</h1>
           <div>
             <p className="about-content">
               I'm a full stack web developer and desinging new features from
