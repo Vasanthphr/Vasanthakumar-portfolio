@@ -3,6 +3,8 @@ import home from "../assets/home.png";
 
 function Home() {
   return (
+   <div className="row">
+    <div className="col-lg-12 col-md-6 col-sm-3">
     <div className="row"  >
       <div className="col-lg-8">
         <img src={home} style={{width:"900px" ,height:"650px"}}alt="" />
@@ -46,6 +48,8 @@ function Home() {
         </div>
       </div>
     </div>
+    </div>
+   </div>
   );
 }
 

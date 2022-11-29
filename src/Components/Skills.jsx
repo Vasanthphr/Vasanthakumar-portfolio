@@ -1,5 +1,6 @@
 import SkillCard from "./SkillCard";
-import Skillimg from "../assets/Skillimg.png";
+import './SkillCard.css'
+import Skillimg from "../assets/web_developing.gif";
 
 function Skills() {
   const skills = [
@@ -52,13 +53,14 @@ function Skills() {
 
   return (
     <>
-    {/* <div className="headline mt-2">
-      <h4>My Skills</h4>      
-    </div> */}
+   <div className="container">
+   <div className="headline">
+      <h3>My Skills</h3>      
+    </div>
     <div className="row mt-3">
-      <div className="col-lg-6 ps-5">
+      <div className="col-lg-6 image">
         <img
-          src={Skillimg} style={{width:"35rem",height:"35rem"}}
+          src={Skillimg} style={{width:"45rem",height:"30rem"}}
           alt="image" 
         />
       </div>
@@ -71,6 +73,7 @@ function Skills() {
         </div>
       </div>
     </div>
+   </div>
     </>
   );
 }

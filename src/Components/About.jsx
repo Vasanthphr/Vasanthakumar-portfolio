@@ -3,9 +3,9 @@ import "./About.css";
 function About() {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container">
         <div>
-          <h1 className="about-title">About</h1>
+          <h3 className="about">About</h3>
           <div>
             <p className="about-content">
               I'm a full stack web developer and desinging new features from

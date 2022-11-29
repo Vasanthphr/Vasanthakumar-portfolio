@@ -39,12 +39,11 @@ function Navbar() {
                 </Link>
               </div>
             </div>
-
-            <div className="btn">
-              <Link to="/contact">
-                <button>Contact Me</button>
-              </Link>
-            </div>
+            <Link to="/contact">
+              <div className="button">
+                <span style={{ color: "whitesmoke" }}>Contact Me</span>
+              </div>
+            </Link>
           </div>
         </nav>
       </div>
