@@ -1,4 +1,3 @@
-import Aboutimg from "../assets/concept-construction-page-site.jpg";
 import "./About.css";
 function About() {
   return (
