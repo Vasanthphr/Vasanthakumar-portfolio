@@ -53,7 +53,7 @@ function Skills() {
 
   return (
     <>
-   <div className="container show-skills mt-5">
+   <div className="container show-skills mt-3">
    
     <div className="row">
       <div className="col-lg-6 image">

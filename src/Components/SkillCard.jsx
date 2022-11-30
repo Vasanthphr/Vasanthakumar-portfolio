@@ -13,7 +13,7 @@ function SkillCard({ item }) {
             alt="skill"
           />
           <div className="card-body">
-            <p className="card-title">{item.name}</p>
+            <h6 className="card-title">{item.name}</h6>
           </div>
         </div>
       </a>
