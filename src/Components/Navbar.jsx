@@ -42,7 +42,7 @@ function Navbar() {
             </div>
             <Link to="/contact">
               <div className="button">
-                <span style={{ color: "whitesmoke" }}>Contact Me</span>
+                <span style={{ color: "white" }}>Contact Me</span>
               </div>
             </Link>
           </div>
