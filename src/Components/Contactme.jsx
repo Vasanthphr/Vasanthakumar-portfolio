@@ -3,7 +3,7 @@ import "./Contactme.css";
 function Contactme() {
   return (
     <>
-      <div className="heading">
+      <div className="heading mt-5">
         <h3>Contact Me</h3>
         <p className="con-details">Get in touch</p>
       </div>

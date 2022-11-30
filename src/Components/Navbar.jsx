@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-   <div className="topbar">
-     <div className="row">
+  
+     <div className="row topbar">
       <div className="col-lg-12 ">
         <nav className="navbar navbar-expand-lg ">
           <div class="container-fluid">
@@ -49,7 +49,7 @@ function Navbar() {
         </nav>
       </div>
     </div>
-   </div>
+   
   );
 }
 

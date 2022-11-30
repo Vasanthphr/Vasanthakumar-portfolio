@@ -53,17 +53,17 @@ function Skills() {
 
   return (
     <>
-   <div className="container">
+   <div className="container show-skills mt-5">
    
-    <div className="row mt-3">
+    <div className="row">
       <div className="col-lg-6 image">
         <img
-          src={Skillimg} style={{width:"45rem",height:"35rem"}}
+          src={Skillimg} style={{width:"47rem",height:"30rem"}}
           alt="image" 
         />
       </div>
 
-      <div className="rainbow col-lg-6">
+      <div className=" col-lg-6">
         <div className="row">
           {skills.map((item) => {
             return <SkillCard item={item}></SkillCard>;
