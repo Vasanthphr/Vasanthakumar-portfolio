@@ -9,8 +9,12 @@
 
 .image{
     position: relative;
-    top: 30px;
+    top: 0px;
     right: 70px;
     
 }
 
+.icons{
+    position: relative;
+    left:60px ;
+}

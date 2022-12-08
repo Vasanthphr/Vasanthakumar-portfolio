@@ -58,7 +58,7 @@ function Skills() {
     <div className="row">
       <div className="col-lg-6 image">
         <img
-          src={Skillimg} style={{width:"40rem",height:"30rem"}}
+          src={Skillimg} style={{width:"40rem",height:"33rem"}}
           alt="image" 
         />
       </div>
