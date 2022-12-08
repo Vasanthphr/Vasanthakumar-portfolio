@@ -63,7 +63,7 @@ function Skills() {
         />
       </div>
 
-      <div className=" col-lg-6">
+      <div className="col-lg-6 icons">
         <div className="row">
           {skills.map((item) => {
             return <SkillCard item={item}></SkillCard>;

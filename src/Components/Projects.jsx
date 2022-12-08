@@ -1,49 +1,51 @@
 import './Projects.css'
+import ProjectsCard from './ProjectsCard'
 
 function Projects() {
+  const myProjects = [
+        
+    {
+      id: 1,
+     projectName: `Mobile-Shopping`,
+     animation:"../projects/mobile-shopping.gif",
+     app:"https://leafy-crisp-b8111f.netlify.app/",
+     
+    },
+   
+    {
+        id: 2,
+        projectName: 'Simple Booking App',
+        animation:"../projects/movie.gif",
+        app:"https://guvi-hackathon2-frontend-dun.vercel.app/"
+        
+        
+      },
+      {
+        id: 3,
+        projectName: 'Admin Page',
+        animation:"../projects/admin.gif",
+        app:"https://super-sherbet-e5a4b0.netlify.app/"
+        
+        
+      }
+      
+    ]
+ 
+return (
+<>
+<div className='mian'>
 
-  return (
-   <div className="container mt-5 show-projects">
+<div className="container m-5">
     <div className="row">
-      <div className="col-lg-12 col-md-6 col-sm-3">
-       <div className="row">
-        <div className="col-lg-6 col-md-3 col-sm-1.5">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="." class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+      
+  {myProjects.map((item) => {
+            return<ProjectsCard item={item}></ProjectsCard>
+        })}
 </div>
-        </div>
-        <div className="col-lg-6 col-md-3 col-sm-1.5">
-          kvsna
-        </div>
-       </div>
-      </div>
-    </div>
-   </div>
-
-  );
+</div>
+</div>
+</>
+)
 }
 
 export default Projects;

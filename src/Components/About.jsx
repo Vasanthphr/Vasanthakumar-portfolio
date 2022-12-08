@@ -7,12 +7,15 @@ function About() {
           <h1 className="about-title mt-5">About</h1>
           <div>
             <p className="about-content">
-              I'm a full stack web developer and desinging new features from
+              I Started off my self-learning journey with online tutorials
+              Google, YouTube, etc and took a step further and Enrolled in the
+              Fullstack web-developer Program bootcamp in <strong>GUVI IIT MADRAS</strong> which involved extensive
+              programming and real world projects. In this camp I learned <strong>MERN</strong> Stack From Guvi to design and built with new features from
               Ideation to production, implementaition of wireframes and design
               flows in my web application. I take into consideration the user
               experience while writing reusable and efficlebt code I
               passionately combine Good design,Technology,and Innovation in all
-              my PROJECT
+              my PROJECT using <strong>React JS, Node, Express Js, MongoDB.</strong> <br />
             </p>
           </div>
         </div>
