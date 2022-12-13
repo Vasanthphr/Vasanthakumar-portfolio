@@ -1,61 +1,138 @@
 import "./Contactme.css";
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
-function Contactme() {
+const Contactme = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_v8zf9di",
+        "template_h7678tn",
+        form.current,
+        "Ea0xkVZLR4Z6lYXWS"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
-    <>
-      <div className="heading mt-3">
-        <h3>Contact Me</h3>
-        <p className="con-details">Get in touch</p>
-      </div>
+    <div id="cont">
+      <div className="cont-all mt-5">
+        <div className="container login-container ">
+          <div className="row login-row ">
+            <h2 className="section__title CONT-titel">Contact Me</h2>
+            <p className="CONT-titel2">Get in touch</p>
+            <br />
+            <br />
 
-      <div className="flex-container">
-        <div className="row box">
-          <div className="col-lg-5">
-            <div className="my-details">
-              <div className="con-details-title">
-                <h5>Call Me</h5>
-                <p className="con-details">9092762110</p>
-              </div>
-              <div className="con-details-title">
-                <h5>Email</h5>
-                <p className="con-details">vagsanth@gmail.com</p>
-              </div>
-              <div className="con-details-title">
-                <h5>Location</h5>
-                <p className="con-details">Chennai-Tamilnadu</p>
+            <div className="container ">
+              <div className="row  ">
+                <div className="col  log-cont">
+                  <div className="contact__information">
+                    <i className="uil uil-phone contact__icon"></i>
+                    <div>
+                      <h3 className="contact__title">Call Me</h3>
+                      <span className="contact__subtitle">90927-62110</span>
+                    </div>
+                  </div>
+
+                  <div className="contact__information">
+                    <i className="uil uil-envelope contact__icon"></i>
+                    <div>
+                      <h3 className="contact__title">Email</h3>
+                      <span className="contact__subtitle">
+                        vagsanth@gmail.com
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="contact__information">
+                    <i className="uil uil-map-marker contact__icon"></i>
+                    <div>
+                      <h3 className="contact__title">Location</h3>
+                      <span className="contact__subtitle">
+                        Poompuhar-Tamilnadu
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className=" col login-form">
+                    <form
+                      ref={form}
+                      onSubmit={sendEmail}
+                      className="contact__form grid"
+                    >
+                      <div className="contact__inputs grid">
+                        <div className="contact__content">
+                          <input
+                            type="text"
+                            name="name"
+                            className="contact__input"
+                            required
+                            placeholder="Name"
+                          />
+                        </div>
+                        <div className="contact__content">
+                          <input
+                            type="email"
+                            name="email"
+                            className="contact__input"
+                            required
+                            placeholder="Email"
+                          />
+                        </div>
+                      </div>
+                      <div className="contact__content">
+                        <input
+                          type="number"
+                          name="number"
+                          className="contact__input"
+                          required
+                          placeholder="Phone number"
+                        />
+                      </div>
+                      <div>
+                        <textarea
+                          name="message"
+                          id=""
+                          cols="0"
+                          rows=""
+                          className="contact__input contanct-massg"
+                          required
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+
+                      <div>
+                        <button
+                          type="submit"
+                          className="button glow-on-hover cont-bn"
+                        >
+                          Send Message
+                          <i className="uil uil-message button__icon"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-5 text-box">
-            <span>
-              <input type="text" className="form-control" placeholder="Name" />
-            </span>
-            <span>
-              <input
-                type="email"
-                className="form-control"
-                placeholder="Email"
-              />
-            </span>
-            <span>
-              <input
-                type="number"
-                className="form-control"
-                placeholder="Phone No"
-              />
-            </span>
-            <textarea
-              className="form-control"
-              placeholder="Message"
-              rows="3"
-              cols="30"
-            ></textarea>
-          </div>
-          <input className="sub-btn" type="submit" />
         </div>
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default Contactme;

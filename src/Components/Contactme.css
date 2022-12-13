@@ -1,46 +1,152 @@
-.heading{
-    text-align: center;
-    color: rgb(0, 0, 0);
+.login-container {
+  width: 800px;
+  border-color: rgb(255, 255, 255);
 }
-.con-details{
-    color: rgb(134, 133, 133);
+.login-row {
+  height: 510px;
+  background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+  border-radius: 30px;
+  box-shadow: 5px 5px 22px rgb(0, 0, 0);
 }
 
-.about{
-    text-align: center;
-}
-
-.box{
+.login-form {
+  height: 450px;
+  position: relative;
+  right: 50px;
   
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 20px;
-    box-shadow:  5px 5px 20px  rgb(179, 175, 175) ;
-    width: 700px;
-    height: 400px;
+}
+.contact__information {
+  display: flex;
+  padding: 20px;
+  position: relative;
+  left: 50px;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 0px 0px 10px 0px;
+  color: black;
+  font-weight: bold;
+  font-size: 20x;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.contact__input {
+  height: 60px;
+  width: 350px;
+  justify-content: space-around;
+  font-size: 22px;
+  background: linear-gradient(180deg, #f8f7f8 0%, #adadb4 100%);
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px white;
+ 
+}
+.CONT-titel {
+  color: white;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+.CONT-titel2 {
+  color: white;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+}
 
-.flex-container {
+.contact__icon {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.contact__input {
+  height: 60px;
+  border-radius: 10px;
+  margin: 5px;
+  
+  
+}
+
+.contanct-massg {
+  height: 120px;
+  width: 350px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .cont-all {
+    margin-top: 90px;
+    margin-left: 40px;
+  }
+  .login-container {
+    width: 310px;
+    border-color: rgb(255, 253, 253);
+  }
+  .login-row {
+    height: 400px;
+    width: 290;
+
+    background-color: #ffbb33;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+  }
+
+  .login-form {
+    width: 300px;
+    background-color: #ffbb33;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 22px grey;
+  }
+  .contact__information {
     display: flex;
+    font: bold;
+    padding: 20px 20px 0px 0px;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .contact__input {
+    height: 100px;
+    width: 272px;
+    justify-content: space-around;
+    font-size: 22px;
+    background-color: white;
+    color: rgb(247, 245, 245);
+  }
+  .CONT-titel {
+    display: flex;
+    font-size: 45px;
+    color: var(--orange);
+    align-items: center;
     justify-content: center;
   }
-
-  .text-box{
+  .CONT-titel2 {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    font-size: 19px;
+    align-items: center;
+    justify-content: start;
+    color: rgb(243, 245, 241);
+    background-color: rgb(95, 93, 93);
+  }
 
+  .contact__icon {
+    font-size: 1.5rem;
+    color: var(--first-color);
   }
-  .my-details{
-    position: relative;
-    top:45px;
-    left: 80px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  .contact__input {
+    height: 60px;
+    margin: 5px;
   }
-  .sub-btn{
-    width: 100px;
-    height: 50px;
-    border-radius: 15px;
-    position: relative;
-    top: 309px;
+  .contanct-massg {
+    height: 150px;
+
+    width: 275px;
   }
+  .cont-bn {
+    width: 120px;
+    height: 210;
+    font-size: 10px;
+  }
+}
