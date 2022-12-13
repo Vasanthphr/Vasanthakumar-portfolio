@@ -49,6 +49,16 @@ function Skills() {
       image: "image/express.png",
       url:"https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
     },
+    {
+      name: "GIT",
+      image: "image/git.png",
+      url:"https://git-scm.com/"
+    },
+    {
+      name: "Redux",
+      image: "image/redux.png",
+      url:"https://redux.js.org/"
+    },
   ];
 
   return (
