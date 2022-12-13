@@ -1,6 +1,5 @@
 import "./SkillCard.css";
 import React from "react";
-import { Link } from "react-router-dom";
 function SkillCard({ item }) {
   return (
     <div className="col-lg-2 skill-icons m-4 ">

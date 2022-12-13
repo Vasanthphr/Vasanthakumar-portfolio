@@ -4,10 +4,10 @@ import "./Projects.css";
 function ProjectsCard({ item }) {
   return (
     <>
-  <div className="col-lg-4">
-        <div className="card" style={{ width: "20rem" }}>
+  <div className="col-lg-6">
+        <div className="card" style={{ width: "35rem",height:"30rem" }}>
           <img
-            style={{ width: "18rem", height: "15rem" }}
+            style={{ width: "29rem", height: "22rem" }}
             src={item.animation}
             alt="..."
           />

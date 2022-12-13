@@ -56,7 +56,7 @@ function Skills() {
    <div className="container show-skills mt-3">
    
     <div className="row">
-      <div className="col-lg-6 image">
+      <div className="col-lg-6 image mt-3">
         <img
           src={Skillimg} style={{width:"40rem",height:"33rem"}}
           alt="image" 

@@ -13,13 +13,6 @@ function Projects() {
 
     {
       id: 2,
-      projectName: "Simple Booking App",
-      animation: "../projects/movie.gif",
-      codeLink: "",
-      liveLink: "",
-    },
-    {
-      id: 3,
       projectName: "Admin Page",
       animation: "../projects/admin.gif",
       codeLink: "https://github.com/Vasanthphr/sb-admin-portal",
