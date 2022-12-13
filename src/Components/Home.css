@@ -151,11 +151,10 @@
   top: 150px;
   right: 110px;
   text-align: center;
-  width: 20vw;
+  width: 17vw;
 }
 .resume-title{
     color: rgb(185, 58, 211);
-    text-shadow:  0px 0px 15px #002bff;
     font-weight: bolder;
     text-decoration: none;
 }
