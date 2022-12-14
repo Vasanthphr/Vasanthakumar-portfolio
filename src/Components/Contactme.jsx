@@ -10,10 +10,10 @@ const Contactme = () => {
 
     emailjs
       .sendForm(
-        "service_v8zf9di",
-        "template_h7678tn",
+        "service_l1zl2mh",
+        "template_9ixm0ln",
         form.current,
-        "Ea0xkVZLR4Z6lYXWS"
+        "ap47aysBPjMIimfBF"
       )
       .then(
         (result) => {
@@ -23,6 +23,7 @@ const Contactme = () => {
           console.log(error.text);
         }
       );
+     e.target.reset()
   };
 
   return (
@@ -76,7 +77,7 @@ const Contactme = () => {
                       <div className="contact__inputs grid">
                         <div className="contact__content">
                           <input
-                            type="text"
+                            type="text" 
                             name="name"
                             className="contact__input"
                             required
