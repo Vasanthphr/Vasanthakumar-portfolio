@@ -56,12 +56,13 @@ function Home() {
                 <div class="effect-1"></div>
                 <div class="effect-2"></div>
                 <div class="content">
-                  <a className="resume-title"
+                  <a
+                    className="resume-title"
                     href="https://drive.google.com/file/d/1BSXLfoVbbOO9QIcP7GfFF8wQRS1Seb40/view"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Download CV
+                    View Resume{" "}
                   </a>
                 </div>
               </div>
