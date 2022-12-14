@@ -36,7 +36,7 @@ function About() {
             </div>
             <div>
               <p>
-                <b>Bachelor's in Mechanical Engineering : (2013-2014)</b>
+                <b>Bachelor's in Mechanical Engineering : (2013-2017)</b>
                 <br />
                 Annamalai University - Chidambaram.
               </p>
