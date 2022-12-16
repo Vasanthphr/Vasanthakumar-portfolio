@@ -8,6 +8,7 @@ function Home() {
         <div className="row">
           <div className="col-lg-8">
             <img
+            className="home-img"
               src={home}
               style={{ width: "900px", height: "650px" }}
               alt=""
@@ -58,7 +59,7 @@ function Home() {
                 <div class="content">
                   <a
                     className="resume-title"
-                    href="https://drive.google.com/file/d/1BSXLfoVbbOO9QIcP7GfFF8wQRS1Seb40/view"
+                    href="https://drive.google.com/file/d/1BXKKBTap1h_umrieCxmfMFzWikfoS0SW/view"
                     target="_blank"
                     rel="noreferrer"
                   >
