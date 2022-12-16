@@ -23,7 +23,7 @@ const Contactme = () => {
           console.log(error.text);
         }
       );
-     e.target.reset()
+    e.target.reset();
   };
 
   return (
@@ -77,7 +77,7 @@ const Contactme = () => {
                       <div className="contact__inputs grid">
                         <div className="contact__content">
                           <input
-                            type="text" 
+                            type="text"
                             name="name"
                             className="contact__input"
                             required
