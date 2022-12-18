@@ -23,15 +23,15 @@ function Projects() {
 
   return (
     <>
-      <div className="mian">
-        <div className="container m-5">
+      
+        <div className="container project-main m-5">
           <div className="row">
             {myProjects.map((item) => {
               return <ProjectsCard item={item}></ProjectsCard>;
             })}
           </div>
         </div>
-      </div>
+      
     </>
   );
 }
