@@ -12,14 +12,38 @@
     text-decoration: none;
     color: black;
 }
-.image{
-    position: relative;
-    top: 0px;
-    right: 70px;
-    
-}
+
 
 .icons{
     position: relative;
     left:60px ;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    .card-title {
+        text-align: center;
+        border: 1px solid rgb(224, 224, 224);
+        border-radius: 20px;
+        
+        background-color: aliceblue;
+        box-shadow: 2px 4px 5px rgb(143, 141, 141);
+        margin: 5px;
+    }
+    
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+    .image{
+       
+        
+    }
+    
+    .icons{
+        position: relative;
+        left:60px ;
+    }
+    
 }

@@ -1,8 +1,13 @@
 
 .card {
   box-shadow: 0px 0px 12px black;
+  width: 35rem;
+  height: 30rem;
 }
-
+.project-card-image{
+  width: 29rem;
+   height: 22rem;
+}
 .card-title{
   background-color: rgb(81, 160, 250);
 }
@@ -31,4 +36,50 @@
 .btn:hover {
   transform: scale(1.1, 1.1);
   color: rgb(224, 240, 0);
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+
+ 
+  
+.card {
+  box-shadow: 0px 0px 12px black;
+  width: 24rem;
+  height: 23rem;
+
+}
+.project-card-image{
+  width: 280px;
+   height: 250px;
+}
+.card-title{
+  background-color: rgb(81, 160, 250);
+}
+.btn {
+
+  font-size: medium;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0) ;
+  text-align: center;
+  height: 45px;
+  width: 8rem;
+  border: 4px solid #ffffff;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+
+
+.btn {
+  background: linear-gradient(#42e601, #d41e73);
+  transition: all 0.2s;
+  transition-timing-function: cubic-bezier(0.5, 3, 0, 1);
+}
+
+.btn:hover {
+  transform: scale(1.1, 1.1);
+  color: rgb(224, 240, 0);
+}
 }

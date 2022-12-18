@@ -5,9 +5,10 @@ function ProjectsCard({ item }) {
   return (
     <>
   <div className="col-lg-6">
-        <div className="card" style={{ width: "35rem",height:"30rem" }}>
+        <div className="card" >
           <img
-            style={{ width: "29rem", height: "22rem" }}
+          className="project-card-image"
+           
             src={item.animation}
             alt="..."
           />

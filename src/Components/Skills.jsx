@@ -64,16 +64,7 @@ function Skills() {
   return (
     <>
    <div className="container show-skills mt-3">
-   
-    <div className="row">
-      <div className="col-lg-6 image mt-3">
-        <img
-          src={Skillimg} style={{width:"40rem",height:"33rem"}}
-          alt="image" 
-        />
-      </div>
-
-      <div className="col-lg-6 icons">
+      <div className="col-lg-12 col-sm-2 icons">
         <div className="row">
           {skills.map((item) => {
             return <SkillCard item={item}></SkillCard>;
@@ -81,7 +72,7 @@ function Skills() {
         </div>
       </div>
     </div>
-   </div>
+   
     </>
   );
 }
