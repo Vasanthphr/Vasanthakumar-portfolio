@@ -43,9 +43,7 @@ function Home() {
                   </span>
                 </a>
               </div>
-            </div>
-
-            <div class="resume">
+              <div class="resume">
               <div class="product">
                 <div class="effect-1"></div>
                 <div class="effect-2"></div>
@@ -61,8 +59,11 @@ function Home() {
                 </div>
               </div>
             </div>
+            </div>
+
+            
           </div>
-          <div className="col-lg-8 col-md-4 col-sm-2">
+          <div className="col-lg-5 col-md-4 col-sm-2">
             <img
             className="home-img"
               src={home}
