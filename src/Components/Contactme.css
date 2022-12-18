@@ -72,3 +72,89 @@
   width: 350px;
 }
 
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+  .login-container {
+    width: 450px;
+    
+    border-color: rgb(255, 255, 255);
+  }
+  .login-row {
+    height: 750px;
+    background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    border-radius: 30px;
+    box-shadow: 5px 5px 22px rgb(0, 0, 0);
+  }
+  
+  .login-form {
+    height: 450px;
+    position: relative;
+    
+    
+  }
+  .contact__information {
+    display: flex;
+    padding: 0px;
+    position: relative;
+    left: 10px;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 0px 0px 10px 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .contact__input {
+    position: relative;
+    left: 60px;
+    height: 60px;
+    width: 350px;
+    justify-content: space-around;
+    font-size: 22px;
+    background: linear-gradient(180deg, #f8f7f8 0%, #adadb4 100%);
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px white;
+   
+  }
+  .CONT-titel {
+    color: white;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  }
+  .CONT-titel2 {
+    color: white;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact__icon {
+    color: white;
+    font-size: 1.8rem;
+  }
+  
+  .contact__input {
+    height: 60px;
+    border-radius: 10px;
+    margin: 5px;
+    
+    
+  }
+  .button{
+    position: relative;
+    left: 60px;
+    width: 150px;
+  }
+  
+  .contanct-massg {
+    height: 120px;
+    width: 350px;
+    
+  }
+}

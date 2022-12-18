@@ -6,15 +6,8 @@ function Home() {
     <div className="row">
       <div className="col-lg-12 col-md-6 col-sm-3">
         <div className="row">
-          <div className="col-lg-8">
-            <img
-            className="home-img"
-              src={home}
-              style={{ width: "900px", height: "650px" }}
-              alt=""
-            />
-          </div>
-          <div className="col-lg-4">
+         
+          <div className="col-lg-4 col-md-2 col-sm-1">
             <div className="intro ">
               <div className="welcomenote">
                 <div>
@@ -68,6 +61,13 @@ function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="col-lg-8 col-md-4 col-sm-2">
+            <img
+            className="home-img"
+              src={home}
+              alt=""
+            />
           </div>
         </div>
       </div>

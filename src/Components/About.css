@@ -10,3 +10,19 @@
 .about-content{
     text-align: justify;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    .about-title{ 
+        text-align: center;
+        background-color: rgb(90, 157, 219);
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    .abt-cont{
+        display: flex;
+        justify-content: center;
+    }
+}
