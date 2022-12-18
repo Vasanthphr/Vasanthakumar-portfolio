@@ -1,8 +1,7 @@
 .card-title {
     text-align: center;
     border: 1px solid rgb(224, 224, 224);
-    border-radius: 20px;
-    
+    border-radius: 5px;
     background-color: aliceblue;
     box-shadow: 2px 4px 5px rgb(143, 141, 141);
     margin: 5px;
@@ -15,18 +14,24 @@
 
 
 .icons{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(100, 99, 99);
     position: relative;
-    left:60px ;
+    left: 100px;
+    width: 6rem;
 }
-
+.card-img-top{
+    height: 5.5rem;
+}
 
 
 @media only screen and (min-width: 300px) and (max-width: 600px){
     .card-title {
         text-align: center;
         border: 1px solid rgb(224, 224, 224);
-        border-radius: 20px;
-        
+        border-radius: 5px;
         background-color: aliceblue;
         box-shadow: 2px 4px 5px rgb(143, 141, 141);
         margin: 5px;
@@ -36,14 +41,18 @@
         text-decoration: none;
         color: black;
     }
-    .image{
-       
-        
-    }
     
-    .icons{
-        position: relative;
-        left:60px ;
-    }
     
+   .icons{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(100, 99, 99);
+    position: relative;
+    left: 100px;
+    width: 6rem;
+}
+.card-img-top{
+    height: 5.5rem;
+}
 }

@@ -1,5 +1,5 @@
 import SkillCard from "./SkillCard";
-import './SkillCard.css'
+import "./SkillCard.css";
 import Skillimg from "../assets/web_developing.gif";
 
 function Skills() {
@@ -17,62 +17,59 @@ function Skills() {
     {
       name: "Bootstrap",
       image: "image/bootstrap.png",
-      url: "https://getbootstrap.com/"
+      url: "https://getbootstrap.com/",
     },
     {
       name: "JavaScript",
       image: "image/javascp1.png",
-      url:"https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     },
     {
       name: "React JS",
       image: "image/React.png",
-      url:"https://reactjs.org/"
+      url: "https://reactjs.org/",
     },
     {
       name: "MongoDB",
       image: "image/mongo.png",
-      url:"https://www.mongodb.com/"
+      url: "https://www.mongodb.com/",
     },
     {
       name: "My Sql",
       image: "image/mysql.png",
-      url:"https://www.mysql.com/"
+      url: "https://www.mysql.com/",
     },
     {
-      name: "Node JS",
+      name: "Node",
       image: "image/node.png",
-      url:"https://nodejs.org/en/"
+      url: "https://nodejs.org/en/",
     },
     {
-      name: "Express JS",
+      name: "Express",
       image: "image/express.png",
-      url:"https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
+      url: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
     },
     {
       name: "GIT",
       image: "image/git.png",
-      url:"https://git-scm.com/"
+      url: "https://git-scm.com/",
     },
     {
       name: "Redux",
       image: "image/redux.png",
-      url:"https://redux.js.org/"
+      url: "https://redux.js.org/",
     },
   ];
 
   return (
     <>
-   <div className="container show-skills mt-3">
-      <div className="col-lg-12 col-sm-2 icons">
+      <div className="container show-skills mt-3">
         <div className="row">
           {skills.map((item) => {
             return <SkillCard item={item}></SkillCard>;
           })}
         </div>
       </div>
-    </div>
-   
     </>
   );
 }
