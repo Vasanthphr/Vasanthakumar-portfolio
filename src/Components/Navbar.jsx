@@ -1,55 +1,80 @@
 import "./Navbar.css";
-import logo from "../assets/logo-no-background.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
   
-     <div className="row topbar">
-      <div className="col-lg-12 ">
-        <nav className="navbar navbar-expand-lg ">
-          <div class="container-fluid">
-            <div className="navbar-logo">
-              <img src={logo} alt="VK-logo" />
-              <h2>VasanthaKumar</h2>
-            </div>
+    
 
-            <div class="nav">
-              <div className="nav-item-1">
-                <Link class="nav-link active" to="/">
-                  <h5>Home</h5>
-                </Link>
-              </div>
-              <div className="nav-item-2">
-                <Link class="nav-link active" to="/about">
-                  <h5>About</h5>
-                </Link>
-              </div>
-              <div className="nav-item-3">
-                <Link class="nav-link active" aria-current="page" to="skills">
-                  <h5>Skills</h5>
-                </Link>
-              </div>
-              <div className="nav-item-4">
-                <Link
-                  class="nav-link active"
-                  aria-current="page"
-                  to="/projects"
-                >
-                  <h5>Projects</h5>
-                </Link>
-              </div>
-            </div>
-            <Link to="/contact">
-              <div className="button">
-                <span style={{ color: "white" }}>Contact Me</span>
-              </div>
-            </Link>
-          </div>
-        </nav>
-      </div>
-    </div>
+        // <nav className="navbar topbar navbar-expand-lg ">
+        //   <div class="container-fluid">
+        //     <div className="navbar-logo">
+        //       <h2>VasanthaKumar</h2>
+        //     </div>
+
+        //     <div class="nav">
+        //       <div className="nav-item-1">
+        //         <Link class="nav-link active" to="/">
+        //           <h5>Home</h5>
+        //         </Link>
+        //       </div>
+        //       <div className="nav-item-2">
+        //         <Link class="nav-link active" to="/Linkbout">
+        //           <h5>About</h5>
+        //         </Link>
+        //       </div>
+        //       <div className="nav-item-3">
+        //         <Link class="nav-link active" aria-current="page" to="skills">
+        //           <h5>Skills</h5>
+        //         </Link>
+        //       </div>
+        //       <div className="nav-item-4">
+        //         <Link
+        //           class="nav-link active"
+        //           aria-current="page"
+        //           to="/projects"
+        //         >
+        //           <h5>Projects</h5>
+        //         </Link>
+        //       </div>
+        //     </div>
+        //     <Link to="/contact">
+        //       <div className="button">
+        //         <span >Contact Me</span>
+        //       </div>
+        //     </Link>
+        //   </div>
+        // </nav>
+     
    
+        <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <Link class="navbar-brand" to="#"><h1>Vasanthakumar</h1></Link>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item  nav-item-1">
+          <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+        </li>
+        <li class="nav-item nav-item-2">
+          <Link class="nav-link" to="/about">About</Link>
+        </li>
+        <li class="nav-item nav-item-3">
+          <Link class="nav-link" to="/skills">Skills</Link>
+        </li>
+        <li class="nav-item nav-item-4">
+          <Link class="nav-link" to="/projects">Projects</Link>
+        </li>
+      </ul>
+      <Link class="nav-link " to="/contact">
+      <span class="navbar-text button">
+       Contact me
+      </span></Link>
+    </div>
+  </div>
+</nav>
  
   );
 }
