@@ -249,7 +249,7 @@
   .intro {
     position: relative;
     top: 150px;
-    left: 70px;
+   margin-left: 0px;
     font-family: Georgia, "Times New Roman", Times, serif;
   }
 

@@ -26,7 +26,7 @@ body {
 	font-weight: 700;
 	text-shadow: black 0px 5px 8px;
 	text-align: center;
-	height: 48px;
+	height: 45px;
 	vertical-align: middle;
 	line-height: normal;
 	width: 10rem;
@@ -34,6 +34,7 @@ body {
 	border-radius: 15px;
 	margin-left: 20px;
 	margin-right: 50px;
+	color: white;
 }
 
 

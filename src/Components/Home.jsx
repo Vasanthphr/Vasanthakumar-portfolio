@@ -4,22 +4,21 @@ import home from "../assets/home.png";
 function Home() {
   return (
     <div className="row">
-      <div className="col-lg-12 col-md-6 col-sm-3">
+      <div className="col-lg-12 ">
         <div className="row">
          
-          <div className="col-lg-4 col-md-2 col-sm-1">
+          <div className="col-lg-4 ">
             <div className="intro ">
-              <div className="welcomenote">
-                <div>
+                <span>
                   <h3>Hi! I,m</h3>
-                </div>
-                <div>
+                </span>
+                <span>
                   <h1>Vasanthakumar G</h1>
-                </div>
-                <div>
+                </span>
+                <span>
                   <h5>Web-devoloper(MERN)</h5>
-                </div>
-              </div>
+                </span>
+            
               <div className="icon">
                 <a href="https://github.com/Vasanthphr" target="blank">
                   {" "}
@@ -60,10 +59,10 @@ function Home() {
               </div>
             </div>
             </div>
-
-            
           </div>
-          <div className="col-lg-5 col-md-4 col-sm-2">
+
+
+          <div className="col-lg-5">
             <img
             className="home-img"
               src={home}

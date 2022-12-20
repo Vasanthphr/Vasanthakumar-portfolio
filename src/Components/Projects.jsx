@@ -24,15 +24,13 @@ function Projects() {
   return (
     <>
       
-       <center>
-       <div className="container project-main">
+        <div className="container project-main">
           <div className="row">
             {myProjects.map((item) => {
               return <ProjectsCard item={item}></ProjectsCard>;
             })}
           </div>
         </div>
-       </center>
       
     </>
   );

@@ -39,7 +39,7 @@ function Navbar() {
               </div>
             </div>
             <Link to="/contact">
-              <div className="button">
+              <div className="con-btn">
                 <span >Contact Me</span>
               </div>
             </Link>
