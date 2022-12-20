@@ -7,13 +7,13 @@ function Home() {
       <div className="row">
       <div className="col-lg-12 ">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-5">
             <div className="intro">
                 <span>
                   <h3>Hi! I,m</h3>
                 </span>
                 <span>
-                  <h1>Vasanthakumar G</h1>
+                  <h1>Vasanthakumar-G</h1>
                 </span>
                 <span>
                   <h5>Web-devoloper(MERN)</h5>
