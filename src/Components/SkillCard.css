@@ -6,24 +6,30 @@
     box-shadow: 2px 4px 5px rgb(143, 141, 141);
     margin: 5px;
 }
+.show-skills{
+    width: 55rem;
+    
+}
+.skilling{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-icons{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(143, 141, 141);
+    border-radius: 25px;
+    padding: 5px;
+
+}
+.card-img-top{
+    height: 8.5rem;
+}
 
 .link{
     text-decoration: none;
     color: black;
 }
 
-
-.icons{
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgb(100, 99, 99);
-    width: 6rem;
-    margin-top: 50px;
-}
-.card-img-top{
-    height: 5.5rem;
-}
 
 
 @media only screen and (min-width: 300px) and (max-width: 600px){
@@ -35,23 +41,27 @@
         box-shadow: 2px 4px 5px rgb(143, 141, 141);
         margin: 5px;
     }
+    .show-skills{
+        width: 10rem;
+        margin: 80px;
+    }
+  
+    .skill-icons{
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px rgb(143, 141, 141);
+        border-radius: 25px;
+        padding: 5px;
+       
+    
+    }
+    .card-img-top{
+        height: 10rem;
+    }
+ 
     
     .link{
         text-decoration: none;
         color: black;
     }
     
-    
-   .icons{
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgb(100, 99, 99);
-    position: relative;
-    left: 100px;
-    width: 6rem;
-}
-.card-img-top{
-    height: 5.5rem;
-}
 }

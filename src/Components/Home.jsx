@@ -3,12 +3,12 @@ import home from "../assets/home.png";
 
 function Home() {
   return (
-    <div className="row">
+    <div className="container-fluid">
+      <div className="row">
       <div className="col-lg-12 ">
         <div className="row">
-         
-          <div className="col-lg-4 ">
-            <div className="intro ">
+          <div className="col-lg-4">
+            <div className="intro">
                 <span>
                   <h3>Hi! I,m</h3>
                 </span>
@@ -71,6 +71,7 @@ function Home() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

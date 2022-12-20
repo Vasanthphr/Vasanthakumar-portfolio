@@ -51,13 +51,13 @@
   
 .card {
   box-shadow: 0px 0px 12px black;
-  width: 13rem;
+  width: 17rem;
   height: 23rem;
 
 }
 
 .project-card-image{
-  width: 180px;
+  width: 210px;
    height: 250px;
 }
 .card-title{
