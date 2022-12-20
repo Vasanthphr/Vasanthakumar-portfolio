@@ -13,7 +13,7 @@ function Home() {
                   <h3>Hi! I,m</h3>
                 </span>
                 <span>
-                  <h1>Vasanthakumar-G</h1>
+                  <h1>Vasanthakumar</h1>
                 </span>
                 <span>
                   <h5>Web-devoloper(MERN)</h5>
