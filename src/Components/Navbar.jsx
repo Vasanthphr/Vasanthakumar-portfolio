@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import navlogo from "../assets/logo-no-background.png"
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -9,6 +10,7 @@ function Navbar() {
         <nav className="navbar topbar navbar-expand-lg ">
           <div class="container-fluid">
             <div className="navbar-logo">
+              <img src={navlogo} alt="" />
               <h2>VasanthaKumar</h2>
             </div>
 
