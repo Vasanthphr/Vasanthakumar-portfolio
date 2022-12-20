@@ -10,7 +10,7 @@ function Navbar() {
         <nav className="navbar topbar navbar-expand-lg ">
           <div class="container-fluid">
             <div className="navbar-logo">
-              <img src={navlogo} alt="" />
+              <img className="nav-logo" src={navlogo} alt="" />
               <h2>VasanthaKumar</h2>
             </div>
 

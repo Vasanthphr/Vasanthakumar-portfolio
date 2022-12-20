@@ -56,6 +56,13 @@ function About() {
             </div>
             <div>
               <p>
+                <b>UI Design / Web developer Trained : (2022-Present)</b>
+                <br />
+                GUVI IIT Madras - Chennai
+              </p>
+            </div>
+            <div>
+              <p>
                 <b>Outlet Manager : (2019-2021)</b>
                 <br />
                 Trends in Vogue - Chennai

@@ -239,12 +239,7 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
-  .home-img {
-    width: 320px;
-    height: 250px;
-    position: relative;
-    top: 70px;
-  }
+
 .intro{
   position: relative;
   right: 70px;
@@ -479,5 +474,12 @@
       top: 0;
       left: 8%;
     }
+  }
+
+    .home-img {
+    width: 320px;
+    height: 250px;
+    position: relative;
+    top: 70px;
   }
 }
