@@ -63,13 +63,13 @@ function Skills() {
 
   return (
     <>
-      <div className="container show-skills mt-3">
+      <center><div className="container show-skills mt-3">
         <div className="row">
           {skills.map((item) => {
             return <SkillCard item={item}></SkillCard>;
           })}
         </div>
-      </div>
+      </div></center>
     </>
   );
 }
