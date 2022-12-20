@@ -118,7 +118,7 @@ const Contactme = () => {
                       <div>
                         <button
                           type="submit"
-                          className="button glow-on-hover cont-bn"
+                          className="button "
                         >
                           Send Message
                           <i className="uil uil-message button__icon"></i>

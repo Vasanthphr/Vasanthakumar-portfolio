@@ -3,6 +3,7 @@
   box-shadow: 0px 0px 12px black;
   width: 35rem;
   height: 30rem;
+  margin: 50px;
 }
 .project-card-image{
   width: 29rem;
@@ -10,6 +11,11 @@
 }
 .card-title{
   background-color: rgb(81, 160, 250);
+}
+
+.project-main{
+ 
+
 }
 .btn {
 
@@ -45,17 +51,18 @@
   
 .card {
   box-shadow: 0px 0px 12px black;
-  width: 18.5rem;
+  width: 13rem;
   height: 23rem;
 
 }
 
 .project-card-image{
-  width: 280px;
+  width: 180px;
    height: 250px;
 }
 .card-title{
-  background-color: rgb(81, 160, 250);
+  background-color: rgb(90, 159, 238);
+  font-size: small;
 }
 .btn {
 
@@ -82,5 +89,9 @@
 .btn:hover {
   transform: scale(1.1, 1.1);
   color: rgb(224, 240, 0);
+}
+.project-main{
+ 
+
 }
 }
